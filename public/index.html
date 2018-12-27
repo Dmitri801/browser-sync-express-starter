@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>This Canvas is the Shiiiiiz</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <style></style>
+  <body>
+    <header class="header teal white-text z-depth-3">Build-A-Meme</header>
+    <main class="row container">
+      <div class="col s12 l6">
+        <form class="upload-form">
+          <div class="file-field input-field">
+            <div class="btn black">
+              <i class="large material-icons">cloud_upload</i>
+              <input type="file" />
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" />
+            </div>
+          </div>
+        </form>
+
+        <canvas id="canvas" width="500" height="400"></canvas>
+        <div id="reset-btn" class="btn btn-lg black">RESET</div>
+      </div>
+      <div class="col s12 l6 submit-form">
+        <div class="input-field">
+          <input id="top-line" type="text" />
+          <label for="top-line">Top Line</label>
+        </div>
+        <div class="input-field">
+          <input id="bottom-line" type="text" />
+          <label for="bottom-line">Bottom Line</label>
+        </div>
+        <div id="submit-btn" class="btn waves-effect waves-light">
+          Add Text <i class="material-icons right">send</i>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+      // const canvas = document.getElementById("canvas");
+      // const ctx = canvas.getContext("2d");
+
+      // CREATE TEXT WITH CANVAS
+
+      // ctx.fillStyle = "#fff";
+      // ctx.strokeStyle = "#000";
+      // ctx.font = "36pt impact";
+      // ctx.lineWidth = 3;
+      // ctx.textAlign = "center";
+      // ctx.fillText("CANVAS MEMES!", canvas.width / 2, 40);
+
+      // ctx.strokeText("CANVAS MEMES!", canvas.width / 2, 40);
+      // console.log(ctx);
+
+      // LOAD IMAGE TO CANVAS
+
+      // const image = new Image();
+      // image.onload = function() {
+      //   console.log("loaded image");
+      //   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+      //   const savedImage = canvas.toDataURL();
+      //   window.open(savedImage);
+      // };
+      // image.src = "./img/Inhaling-Seagull.jpg";
+    </script>
+  </body>
+</html>

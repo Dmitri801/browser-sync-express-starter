@@ -1,0 +1,33 @@
+body {
+  background: #fdfdfd;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+main {
+  height: 700px;
+  display: flex;
+}
+
+.submit-form {
+  align-self: center;
+}
+
+.upload-form {
+  margin-bottom: 10px;
+}
+
+#reset-btn {
+  letter-spacing: 3px;
+}

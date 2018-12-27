@@ -1,0 +1,20 @@
+{
+  "name": "canvasShiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "helmet": "^3.15.0"
+  }
+}
