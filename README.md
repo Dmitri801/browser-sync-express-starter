@@ -1,4 +1,4 @@
-# Build a meme app w/ canvas - gulp + browser-sync + express server - starter pack
+# Build a meme app w/ canvas - gulp + browser-sync + materializecss + express server - starter pack
 
 ## How to use
 
